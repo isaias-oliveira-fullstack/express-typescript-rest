@@ -21,8 +21,8 @@ app.use((req, res, next) => {
 });
 app.use(logger);
 
-app.use("/products", productsRouter);
-app.use("/orders", ordersRouter);
+app.use("/api/products", productsRouter);
+app.use("/api/orders", ordersRouter);
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
