@@ -2,13 +2,13 @@
   "name": "express-typescript-rest",
   "version": "1.0.0",
   "description": "REST API de produtos e pedidos usando Express e TypeScript.",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "npm run build && node dist/src/index.js",
-    "start:prod": "tsc && node dist/src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "build": "tsc",
+  "start": "npm run build && node dist/src/index.js",
+  "start:prod": "tsc && node dist/src/index.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "keywords": [
     "typescript",
     "oop",
