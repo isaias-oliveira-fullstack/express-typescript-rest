@@ -28,7 +28,10 @@
     "login",
     "register",
     "pinia",
-    "vuelidate"
+    "vuelidate",
+    "rest",
+    "express",
+    "status-codes"
   ],
   "author": "Isaias Oliveira",
   "license": "MIT",
